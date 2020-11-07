@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="addition/font-awesome-4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<title>Site</title>
+</head>
+<body>
+	<div id="content">
+
+		<div id="container">
+			<div id="header"><h1>АНАТОМИЯ МЫШЕЧНОЙ СТРУКТУРЫ ЧЕЛОВЕКА</h1></div>
+			<div id="demoInfo">
+				
+				<p id="text">
+					Этот сайт сделан для студентов, школьников и не только, которые хотят увидеть мышечную анатомию структуры человека в интерактивном формате. <br><br>
+					Слева представлена модель человека без кожи, наведя курсором на какую либо мышечную часть, вы увидите как она полностью подсветиться. 
+					После вы можете нажать на нее и увидеть в этом красном блоке информацию о ней.
+				</p>
+			</div>
+		</div>
+
+		<div id="trapezes_1" onclick="showInfoTrapezes()" onmouseover="showTrapezes_img()" onmouseout="hideTrapezes_img()"></div>
+		<div id="trapezes_2" onclick="showInfoTrapezes()" onmouseover="showTrapezes_img()" onmouseout="hideTrapezes_img()"></div>
+		<img id="trapezes_img" src="/images/bodyPart/trapezes.png" alt="">
+
+		<div id="shoulder_1" onclick="showInfoShoulder()" onmouseover="showImg()" onmouseout="hideImg()"></div>
+		<div id="shoulder_2" onclick="showInfoShoulder()" onmouseover="showImg()" onmouseout="hideImg()"></div>
+		<img id="shoulder_img" src="/images/bodyPart/shoulder.png" alt="">
+
+		<div id="breast" onclick="showInfoBreast()" onmouseover="showBreast_img()" onmouseout="hideBreast_img()"></div>
+		<img id="breast_img" src="/images/bodyPart/breast.png" alt="">
+
+		<div id="biceps_1" onclick="showInfoBiceps()" onmouseover="showBiceps_img()" onmouseout="hideBiceps_img()"></div>
+		<div id="biceps_2" onclick="showInfoBiceps()" onmouseover="showBiceps_img()" onmouseout="hideBiceps_img()"></div>
+		<img id="biceps_img" src="/images/bodyPart/biceps.png" alt="">
+
+		<div id="forearm_1" onclick="showInfoForearm()" onmouseover="showForearm_img()" onmouseout="hideForearm_img()"></div>
+		<div id="forearm_2" onclick="showInfoForearm()" onmouseover="showForearm_img()" onmouseout="hideForearm_img()"></div>
+		<img id="forearm_img" src="/images/bodyPart/forearm.png" alt="">
+
+		<div id="press" onclick="showInfoPress()" onmouseover="showPress_img()" onmouseout="hidePress_img()"></div>
+		<img id="press_img" src="/images/bodyPart/press.png" alt="">
+
+		<div id="widest_1" onclick="showInfoWidest()" onmouseover="showWidest_img()" onmouseout="hideWidest_img()"></div>
+		<div id="widest_2" onclick="showInfoWidest()" onmouseover="showWidest_img()" onmouseout="hideWidest_img()"></div>
+		<img id="widest_img" src="/images/bodyPart/widest.png" alt="">
+
+		<div id="obliqueAbdominalMuscles_1" onclick="showInfooBliqueAbdominalMuscles()" onmouseover="showObliqueAbdominalMuscles_img()" onmouseout="hideObliqueAbdominalMuscles_img()"></div>
+		<div id="obliqueAbdominalMuscles_2" onclick="showInfooBliqueAbdominalMuscles()" onmouseover="showObliqueAbdominalMuscles_img()" onmouseout="hideObliqueAbdominalMuscles_img()"></div>
+		<img id="obliqueAbdominalMuscles_img" src="/images/bodyPart/obliqueAbdominalMuscles.png" alt="">
+
+		<div id="hips_1" onclick="showInfoHips()" onmouseover="showhips_img()" onmouseout="hidehips_img()"></div>
+		<div id="hips_2" onclick="showInfoHips()" onmouseover="showhips_img()" onmouseout="hidehips_img()"></div>
+		<img id="hips_img" src="/images/bodyPart/hips.png" alt="">
+
+		<div id="quadraBiceps_1" onclick="showInfoQuadraBiceps()" onmouseover="showQuadraBiceps_img()" onmouseout="hideQuadraBiceps_img()"></div>
+		<div id="quadraBiceps_2" onclick="showInfoQuadraBiceps()" onmouseover="showQuadraBiceps_img()" onmouseout="hideQuadraBiceps_img()"></div>
+		<img id="quadraBiceps_img" src="/images/bodyPart/quadraBiceps.png" alt="">
+		
+		<div id="sural_1" onclick="showInfoSural()" onmouseover="showSural_img()" onmouseout="hideSural_img()"></div>
+		<div id="sural_2" onclick="showInfoSural()" onmouseover="showSural_img()" onmouseout="hideSural_img()"></div>
+		<img id="sural_img" src="/images/bodyPart/sural.png" alt="">
+	</div>
+
+	<script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+	<script src="js/scripts.js"></script>
+</body>
+
+
+
+
+<!-- 
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+</html>

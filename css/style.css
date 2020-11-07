@@ -1,0 +1,291 @@
+html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],/* 1 */
+[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,/* 1 */
+menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}body {margin: 0px;padding: 0px;}
+
+/*resset css*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+    display: none;
+}
+
+#content {
+    width: 305px;
+    height: 747px;
+	display: grid;
+    background: url('../images/person.jpg') no-repeat;
+    background-size: 100%;
+    margin-left: 15%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#container {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    box-shadow: 0 0 100px #ff0000;
+    color: #ffdada;
+
+}
+
+#header {
+    width: 100%;
+    height: 10%;
+    background: #e96380;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1 {
+    font-size: 25px;
+}
+
+#demoInfo {
+    height: 90%;
+    background-color: #cc3333;
+}
+
+#demoInfo p {
+    display: block;
+    margin: 35px;
+    font-family: "sans-serif";
+    font-size: 25px;
+    position: absolute;
+    color: #ffd9d9;
+}
+
+/* -------------------таргеты части тела и свойства----------------- */
+
+/* трапеция */
+#trapezes_1 {
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid red;
+    border-right: 30px solid transparent;
+    transform: rotate(-21deg);
+    margin: 94px 0px 0px 180px;
+    border-radius: 50px 20px 0px 0px;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+}
+
+#trapezes_2 {
+    width: 0px;
+    height: 0px;
+    border-bottom: 30px solid red;
+    border-right: 35px solid transparent;
+    transform: rotate(285deg);
+    margin: 93px 0px 0px 101px;
+    border-radius: 0px 0px 16px 0px;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+}
+/* трапеция */
+
+/* плечи */
+#shoulder_1 {
+    width: 34px;
+    height: 81px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    transform: rotate(38deg);
+    margin: 107px 0px 0 54px;
+    position: absolute;	
+    cursor: pointer;	
+}
+
+#shoulder_2 {
+    width: 28px;
+    height: 83px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    transform: rotate(148deg);
+    margin: 100px 0px 0 223px;
+    position: absolute;
+    cursor: pointer;
+}
+/* плечи */
+
+/* грудь */
+#breast {
+    width: 138px;
+    height: 72px;
+    margin: 134px 0 0 92px;
+    position: absolute;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/* грудь */
+
+/* бицепс */
+#biceps_1 {
+    width: 36px;
+    height: 80px;
+    margin: 181px 0 0 49px;
+    position: absolute;
+    border-radius: 30px 30px 0px 30px;
+    cursor: pointer;
+    transform: rotate(15deg);
+}
+
+#biceps_2 {
+    width: 36px;
+    height: 88px;
+    margin: 168px 0 0 224px;
+    position: absolute;
+    border-radius: 30px;
+    cursor: pointer;
+    transform: rotate(-8deg);
+}
+/* бицепс */
+
+/* предплечье */
+#forearm_1 {
+    width: 36px;
+    height: 105px;
+    margin: 244px 0 0 237px;
+    position: absolute;
+    border-radius: 0 0 30px 0;
+    cursor: pointer;
+    transform: rotate(-13deg);
+}
+
+#forearm_2 {
+    width: 33px;
+    height: 106px;
+    margin: 248px 0 0 34px;
+    position: absolute;
+    border-radius: 0 0 30px 0;
+    cursor: pointer;
+    transform: rotate(15deg);
+}
+/* предплечье */
+
+/* пресс */
+#press {
+    width: 72px;
+    height: 164px;
+    position: absolute;
+    margin: 207px 0 0 126px;
+    border-radius: 0 0 50px 30px;
+    cursor: pointer;
+}
+/* пресс */
+
+/* широчайщие */
+#widest_1 {
+    width: 17px;
+    height: 53px;
+    position: absolute;
+    margin: 185px 0px 0px 90px;
+    border-radius: 50px;
+    transform: rotate(-15deg);
+    cursor: pointer;
+}
+
+#widest_2 {
+    width: 16px;
+    height: 40px;
+    position: absolute;
+    margin: 192px 0px 0px 210px;
+    border-radius: 50px;
+    transform: rotate(12deg);
+    cursor: pointer;
+}
+/* широчайщие */
+
+/* косые мышцы живота */
+#obliqueAbdominalMuscles_1 {
+    width: 21px;
+    height: 109px;
+    position: absolute;
+    margin: 227px 0px 0px 197px;
+    border-radius: 50px;
+    transform: rotate(4deg);
+    cursor: pointer;
+}
+
+#obliqueAbdominalMuscles_2 {
+    width: 21px;
+    height: 109px;
+    position: absolute;
+    margin: 220px 0px 0px 101px;
+    border-radius: 50px;
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+/* косые мышцы живота */
+
+/* бедро */
+#hips_1 {
+    width: 24px;
+    height: 146px;
+    position: absolute;
+    margin: 379px 0px 0px 129px;
+    border-radius: 50px;
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+
+#hips_2 {
+    width: 24px;
+    height: 150px;
+    position: absolute;
+    margin: 379px 0px 0px 160px;
+    border-radius: 50px;
+    transform: rotate(-6deg);
+    cursor: pointer;
+}
+/* бедро */
+
+/* квадра бицес */
+#quadraBiceps_1 {
+    width: 32px;
+    height: 148px;
+    position: absolute;
+    margin: 370px 0px 0px 188px;
+    border-radius: 50px;
+    transform: rotate(5deg);
+    cursor: pointer;
+}
+
+#quadraBiceps_2 {
+    width: 32px;
+    height: 136px;
+    position: absolute;
+    margin: 365px 0px 0px 101px;
+    border-radius: 50px;
+    transform: rotate(-8deg);
+    cursor: pointer;
+}
+/* квадра бицес */
+
+
+#sural_1 {
+    width: 38px;
+    height: 136px;
+    position: absolute;
+    margin: 565px 0px 0px 107px;
+    border-radius: 50px;
+    transform: rotate(-7deg);
+    cursor: pointer;
+}
+
+/* икраножные */
+#sural_2 {
+    width: 38px;
+    height: 136px;
+    position: absolute;
+    margin: 565px 0px 0px 174px;
+    border-radius: 50px;
+    transform: rotate(2deg);
+    cursor: pointer;
+}
+/* икраножные */
